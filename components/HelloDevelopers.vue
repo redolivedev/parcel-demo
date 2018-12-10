@@ -1,6 +1,12 @@
 <template>
     <p>
-        {{ greeting }}
+        Hello from 
+        <a 
+            href="https://vuejs.org"
+            target="_blank"
+        >
+            Vue
+        </a>
     </p>
 </template>
 
@@ -15,7 +21,7 @@
 </script>
 
 <style scoped lang="scss">
-    p {
-        background: #eee;
+    a {
+        color: blue;
     }
 </style>
